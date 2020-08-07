@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="This setting only applies to using the internal comment system, it does not impact Disqus comments." xml:space="preserve">
+    <value>This setting only applies to using the internal comment system, it does not impact Disqus comments.</value>
+  </data>
+  <data name="Provide your Disqus site name aka short name to use Disqus instead of the internal comment system. Highly recommended." xml:space="preserve">
+    <value>Provide your Disqus site name aka short name to use Disqus instead of the internal comment system. Highly recommended.</value>
+  </data>
+  <data name="Moderate Comments" xml:space="preserve">
+    <value>Moderate Comments</value>
+  </data>
+  <data name="Days To Comment" xml:space="preserve">
+    <value>Days To Comment</value>
+  </data>
+  <data name="No Limit" xml:space="preserve">
+    <value>No Limit</value>
+  </data>
+  <data name="Comment Notification Email" xml:space="preserve">
+    <value>Comment Notification Email</value>
+  </data>
+  <data name="Disqus Short Name" xml:space="preserve">
+    <value>Disqus Short Name</value>
+  </data>
+  <data name="Blog Page Title" xml:space="preserve">
+    <value>Blog Page Title</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Show Blog Title and Description" xml:space="preserve">
+    <value>Show Blog Title and Description</value>
+  </data>
+  <data name="About Heading" xml:space="preserve">
+    <value>About Heading</value>
+  </data>
+  <data name="About Content" xml:space="preserve">
+    <value>About Content</value>
+  </data>
+  <data name="Show About box in side bar of the blog." xml:space="preserve">
+    <value>Show About box in side bar of the blog.</value>
+  </data>
+  <data name="Show related posts in the blog side bar based on categories of the current post." xml:space="preserve">
+    <value>Show related posts in the blog side bar based on categories of the current post.</value>
+  </data>
+  <data name="Blog Page Menu Text" xml:space="preserve">
+    <value>Blog Page Menu Text</value>
+  </data>
+  <data name="Blog Page Menu Visibility" xml:space="preserve">
+    <value>Blog Page Menu Visibility</value>
+  </data>
+  <data name="Add Blog To Menu" xml:space="preserve">
+    <value>Add Blog To Menu</value>
+  </data>
+  <data name="Blog Menu Links To Newest Post" xml:space="preserve">
+    <value>Blog Menu Links To Newest Post</value>
+  </data>
+  <data name="Blog Menu Position" xml:space="preserve">
+    <value>Blog Menu Position</value>
+  </data>
+  <data name="Posts Per Page" xml:space="preserve">
+    <value>Posts Per Page</value>
+  </data>
+  <data name="Date Format" xml:space="preserve">
+    <value>Date Format</value>
+  </data>
+  <data name="Include Date In Post Urls" xml:space="preserve">
+    <value>Include Date In Post Urls</value>
+  </data>
+  <data name="Teaser Mode" xml:space="preserve">
+    <value>Teaser Mode</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="Lists and Feed" xml:space="preserve">
+    <value>Lists and Feed</value>
+  </data>
+  <data name="Feed Only" xml:space="preserve">
+    <value>Feed Only</value>
+  </data>
+  <data name="List Only" xml:space="preserve">
+    <value>List Only</value>
+  </data>
+  <data name="Teaser Truncation Mode" xml:space="preserve">
+    <value>Teaser Truncation Mode</value>
+  </data>
+  <data name="Words" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="Absolute string lenth including white space" xml:space="preserve">
+    <value>Absolute string lenth including white space</value>
+  </data>
+  <data name="Letters or digits" xml:space="preserve">
+    <value>Letters or digits</value>
+  </data>
+  <data name="Teaser Truncation Length" xml:space="preserve">
+    <value>Teaser Truncation Length</value>
+  </data>
+  <data name="Default Content Type" xml:space="preserve">
+    <value>Default Content Type</value>
+  </data>
+  <data name="Default Page" xml:space="preserve">
+    <value>Default Page</value>
+  </data>
+  <data name="Show Recent Posts on Default Page" xml:space="preserve">
+    <value>Show Recent Posts on Default Page</value>
+  </data>
+  <data name="Show Featured Posts on Default Page" xml:space="preserve">
+    <value>Show Featured Posts on Default Page</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Publisher Logo Url" xml:space="preserve">
+    <value>Publisher Logo Url</value>
+  </data>
+  <data name="Publisher Logo Width" xml:space="preserve">
+    <value>Publisher Logo Width</value>
+  </data>
+  <data name="Publisher Logo Height" xml:space="preserve">
+    <value>Publisher Logo Height</value>
+  </data>
+  <data name="Publisher Type" xml:space="preserve">
+    <value>Publisher Type</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Facebook App Id" xml:space="preserve">
+    <value>Facebook App Id</value>
+  </data>
+  <data name="Site Name" xml:space="preserve">
+    <value>Site Name</value>
+  </data>
+  <data name="Publisher Twitter Handle" xml:space="preserve">
+    <value>Publisher Twitter Handle</value>
+  </data>
+  <data name="Creator Twitter Handle" xml:space="preserve">
+    <value>Creator Twitter Handle</value>
+  </data>
+  <data name="Feedburner Url" xml:space="preserve">
+    <value>Feedburner Url</value>
+  </data>
+  <data name="Language Code" xml:space="preserve">
+    <value>Language Code</value>
+  </data>
+  <data name="Comma Separated Channel Categories" xml:space="preserve">
+    <value>Comma Separated Channel Categories</value>
+  </data>
+  <data name="Managing Editor Email" xml:space="preserve">
+    <value>Managing Editor Email</value>
+  </data>
+  <data name="Webmaster Email" xml:space="preserve">
+    <value>Webmaster Email</value>
+  </data>
+  <data name="Default Feed Items" xml:space="preserve">
+    <value>Default Feed Items</value>
+  </data>
+  <data name="Max Feed Items" xml:space="preserve">
+    <value>Max Feed Items</value>
+  </data>
+  <data name="The description also is used as the channel description in the RSS feed." xml:space="preserve">
+    <value>The description also is used as the channel description in the RSS feed.</value>
+  </data>
+  <data name="If checked will show the blog title and description at the top of the post list." xml:space="preserve">
+    <value>If checked will show the blog title and description at the top of the post list.</value>
+  </data>
+  <data name="The heading for the about box in the blog side panel." xml:space="preserve">
+    <value>The heading for the about box in the blog side panel.</value>
+  </data>
+  <data name="A comma separated list of navigation component filter names used to filter the blog out of the menu. Leave this blank so the blog menu item is not filtered from any of the menu views. There are some standard filter names like topnav and breadcrumbs but it is also possible to use custom names with custom views. As soon as you populate this field it becomes filtered to only show the blog menu item in the included views, whereas blank means unfiltered." xml:space="preserve">
+    <value>A comma separated list of navigation component filter names used to filter the blog out of the menu. Leave this blank so the blog menu item is not filtered from any of the menu views. There are some standard filter names like topnav and breadcrumbs but it is also possible to use custom names with custom views. As soon as you populate this field it becomes filtered to only show the blog menu item in the included views, whereas blank means unfiltered.</value>
+  </data>
+  <data name="Add the blog as a top level menu item. There are multiple other ways of adding the blog to the menu. You can make a page that links to /blog or it can be done from the navigation.xml file. If you see it in the menu more than once it means you have multiple ways it is configured to be added." xml:space="preserve">
+    <value>Add the blog as a top level menu item. There are multiple other ways of adding the blog to the menu. You can make a page that links to /blog or it can be done from the navigation.xml file. If you see it in the menu more than once it means you have multiple ways it is configured to be added.</value>
+  </data>
+  <data name="If checked the blog menu item will link to the most recent post instead of the post list." xml:space="preserve">
+    <value>If checked the blog menu item will link to the most recent post instead of the post list.</value>
+  </data>
+  <data name="The position of the blog within the top level menu." xml:space="preserve">
+    <value>The position of the blog within the top level menu.</value>
+  </data>
+  <data name="Number of posts to show per page on the post list." xml:space="preserve">
+    <value>Number of posts to show per page on the post list.</value>
+  </data>
+  <data name="If ON, truncated &#39;teasers&#39; will automatically be generated for blog list views and RSS feed, and a read more link will be shown. You can overide the auto generated teaser per post with a manually created teaser" xml:space="preserve">
+    <value>If ON, truncated &#39;teasers&#39; will automatically be generated for blog list views and RSS feed, and a read more link will be shown. You can overide the auto generated teaser per post with a manually created teaser</value>
+  </data>
+  <data name="Truncate blog posts in lists views and in the feed by character/word/length. Words is recommended." xml:space="preserve">
+    <value>Truncate blog posts in lists views and in the feed by character/word/length. Words is recommended.</value>
+  </data>
+  <data name="Length (character/word/length) to truncate blog posts for teasers." xml:space="preserve">
+    <value>Length (character/word/length) to truncate blog posts for teasers.</value>
+  </data>
+  <data name="This is used in meta data, see http://schema.org/publisher." xml:space="preserve">
+    <value>This is used in meta data, see http://schema.org/publisher.</value>
+  </data>
+  <data name="This is used in meta data, see http://schema.org/logo." xml:space="preserve">
+    <value>This is used in meta data, see http://schema.org/logo.</value>
+  </data>
+  <data name="Site Name is used in meta data." xml:space="preserve">
+    <value>Site Name is used in meta data.</value>
+  </data>
+  <data name="This is used in meta data." xml:space="preserve">
+    <value>This is used in meta data.</value>
+  </data>
+  <data name="Feed Settings" xml:space="preserve">
+    <value>Feed Settings</value>
+  </data>
+  <data name="Number of posts to show in the feed by default." xml:space="preserve">
+    <value>Number of posts to show in the feed by default.</value>
+  </data>
+  <data name="Maximum number of posts to show in the feed. Used to constrain the query string paramter for feed size." xml:space="preserve">
+    <value>Maximum number of posts to show in the feed. Used to constrain the query string paramter for feed size.</value>
+  </data>
+  <data name="Working..." xml:space="preserve">
+    <value>Working...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Editors" xml:space="preserve">
+    <value>Editors</value>
+  </data>
+  <data name="You can edit this from Administration &gt; Content Settings" xml:space="preserve">
+    <value>You can edit this from Administration &gt; Content Settings</value>
+  </data>
+  <data name="Archives" xml:space="preserve">
+    <value>Archives</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="If you want to view or submit comments you must accept the cookie consent." xml:space="preserve">
+    <value>If you want to view or submit comments you must accept the cookie consent.</value>
+  </data>
+  <data name="You are currently viewing a draft version of this post." xml:space="preserve">
+    <value>You are currently viewing a draft version of this post.</value>
+  </data>
+  <data name="Scheduled Publish Date:" xml:space="preserve">
+    <value>Scheduled Publish Date:</value>
+  </data>
+  <data name="View published version." xml:space="preserve">
+    <value>View published version.</value>
+  </data>
+  <data name="View current draft." xml:space="preserve">
+    <value>View current draft.</value>
+  </data>
+  <data name="Version History" xml:space="preserve">
+    <value>Version History</value>
+  </data>
+  <data name="Date Required" xml:space="preserve">
+    <value>Date Required</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="To publish later you must enter a date." xml:space="preserve">
+    <value>To publish later you must enter a date.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Meta Description" xml:space="preserve">
+    <value>Meta Description</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Is Featured" xml:space="preserve">
+    <value>Is Featured</value>
+  </data>
+  <data name="On public pages, meta description is very important to search engines. It should be no longer than 135 – 160 characters long (although Google has recently been testing longer snippets). Any longer and search engines will chop the end off, so make sure any important keywords are nearer the front." xml:space="preserve">
+    <value>On public pages, meta description is very important to search engines. It should be no longer than 135 – 160 characters long (although Google has recently been testing longer snippets). Any longer and search engines will chop the end off, so make sure any important keywords are nearer the front.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Save Draft" xml:space="preserve">
+    <value>Save Draft</value>
+  </data>
+  <data name="Publish Now" xml:space="preserve">
+    <value>Publish Now</value>
+  </data>
+  <data name="Publish at Date/Time:" xml:space="preserve">
+    <value>Publish at Date/Time:</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Confirm Delete" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="Are you sure you want to delete the post {0}?" xml:space="preserve">
+    <value>Are you sure you want to delete the post {0}?</value>
+  </data>
+  <data name="This content is scheduled to be published {0}. You can still edit and save changes to this draft before it is published by clicking &quot;Save Draft&quot;" xml:space="preserve">
+    <value>This content is scheduled to be published {0}. You can still edit and save changes to this draft before it is published by clicking &quot;Save Draft&quot;</value>
+  </data>
+  <data name="A previous version of this post has been restored to the editor, replacing the current draft version. If this is not intended, do not save/publish this version." xml:space="preserve">
+    <value>A previous version of this post has been restored to the editor, replacing the current draft version. If this is not intended, do not save/publish this version.</value>
+  </data>
+  <data name="You&#39;ve just restored a previously deleted post to the editor; click save/publish to re-create the post. If this is not intended, do not save/publish this version." xml:space="preserve">
+    <value>You&#39;ve just restored a previously deleted post to the editor; click save/publish to re-create the post. If this is not intended, do not save/publish this version.</value>
+  </data>
+  <data name="A previous version of this post has been restored to the editor. If this is not intended, do not save/publish this version." xml:space="preserve">
+    <value>A previous version of this post has been restored to the editor. If this is not intended, do not save/publish this version.</value>
+  </data>
+  <data name="If checked, then show entire blog post on index/listing pages regardless of teaser settings." xml:space="preserve">
+    <value>If checked, then show entire blog post on index/listing pages regardless of teaser settings.</value>
+  </data>
+  <data name="Teaser Override" xml:space="preserve">
+    <value>Teaser Override</value>
+  </data>
+  <data name="No teaser, use full post" xml:space="preserve">
+    <value>No teaser, use full post</value>
+  </data>
+  <data name="Template Fields" xml:space="preserve">
+    <value>Template Fields</value>
+  </data>
+  <data name="Template Fields - {0}" xml:space="preserve">
+    <value>Template Fields - {0}</value>
+  </data>
+  <data name="{0} - Content Edit History" xml:space="preserve">
+    <value>{0} - Content Edit History</value>
+  </data>
+  <data name="First Page" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Last Page" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Previous page" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Next page" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="View current version" xml:space="preserve">
+    <value>View current version</value>
+  </data>
+  <data name="Delete Older Than" xml:space="preserve">
+    <value>Delete Older Than</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="You are currently viewing a previous version of this post that was archived" xml:space="preserve">
+    <value>You are currently viewing a previous version of this post that was archived</value>
+  </data>
+  <data name="Restore this version to editor" xml:space="preserve">
+    <value>Restore this version to editor</value>
+  </data>
+  <data name="Delete this version history item" xml:space="preserve">
+    <value>Delete this version history item</value>
+  </data>
+  <data name="Are you sure you want to permanently delete this version history item?" xml:space="preserve">
+    <value>Are you sure you want to permanently delete this version history item?</value>
+  </data>
+  <data name="&lt; Older" xml:space="preserve">
+    <value>&lt; Older</value>
+  </data>
+  <data name="Newer &gt;" xml:space="preserve">
+    <value>Newer &gt;</value>
+  </data>
+  <data name="Create a New Post" xml:space="preserve">
+    <value>Create a New Post</value>
+  </data>
+  <data name="Create Post From Template" xml:space="preserve">
+    <value>Create Post From Template</value>
+  </data>
+  <data name="New Post with Standard Content Editor" xml:space="preserve">
+    <value>New Post with Standard Content Editor</value>
+  </data>
+  <data name="Previous Post" xml:space="preserve">
+    <value>Previous Post</value>
+  </data>
+  <data name="Next Post" xml:space="preserve">
+    <value>Next Post</value>
+  </data>
+  <data name="Posted in:" xml:space="preserve">
+    <value>Posted in:</value>
+  </data>
+  <data name="Confirm Unpublish" xml:space="preserve">
+    <value>Confirm Unpublish</value>
+  </data>
+  <data name="Are you sure you want to unpublish the post {0}?" xml:space="preserve">
+    <value>Are you sure you want to unpublish the post {0}?</value>
+  </data>
+  <data name="Unpublish" xml:space="preserve">
+    <value>Unpublish</value>
+  </data>
+  <data name="This is an unpublished draft." xml:space="preserve">
+    <value>This is an unpublished draft.</value>
+  </data>
+  <data name="This is the published version, but this post has an unpublished draft." xml:space="preserve">
+    <value>This is the published version, but this post has an unpublished draft.</value>
+  </data>
+  <data name="[...Read More]" xml:space="preserve">
+    <value>[...Read More]</value>
+  </data>
+  <data name="New Post" xml:space="preserve">
+    <value>New Post</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Content Edit History" xml:space="preserve">
+    <value>Content Edit History</value>
+  </data>
+  <data name="Environment" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="Any" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="Development" xml:space="preserve">
+    <value>Development</value>
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Add CSS Url" xml:space="preserve">
+    <value>Add CSS Url</value>
+  </data>
+  <data name="Add Javascript Url" xml:space="preserve">
+    <value>Add Javascript Url</value>
+  </data>
+  <data name="With great power comes great responsibility. This page is intended for use by developers, for adding javscript and css into the page. Use this page only if you understand what you are doing." xml:space="preserve">
+    <value>With great power comes great responsibility. This page is intended for use by developers, for adding javscript and css into the page. Use this page only if you understand what you are doing.</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="CSS" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="You are currently viewing a draft version of this page." xml:space="preserve">
+    <value>You are currently viewing a draft version of this page.</value>
+  </data>
+  <data name="Page Heading" xml:space="preserve">
+    <value>Page Heading</value>
+  </data>
+  <data name="Slug" xml:space="preserve">
+    <value>Slug</value>
+  </data>
+  <data name="Parent Slug" xml:space="preserve">
+    <value>Parent Slug</value>
+  </data>
+  <data name="Override Url" xml:space="preserve">
+    <value>Override Url</value>
+  </data>
+  <data name="Show Heading" xml:space="preserve">
+    <value>Show Heading</value>
+  </data>
+  <data name="Show Child Menu" xml:space="preserve">
+    <value>Show Child Menu</value>
+  </data>
+  <data name="Disable HTML Editor" xml:space="preserve">
+    <value>Disable HTML Editor</value>
+  </data>
+  <data name="No Content Only Show Child Menu" xml:space="preserve">
+    <value>No Content Only Show Child Menu</value>
+  </data>
+  <data name="Page Order" xml:space="preserve">
+    <value>Page Order</value>
+  </data>
+  <data name="Menu Filters" xml:space="preserve">
+    <value>Menu Filters</value>
+  </data>
+  <data name="View Roles" xml:space="preserve">
+    <value>View Roles</value>
+  </data>
+  <data name="Select Roles" xml:space="preserve">
+    <value>Select Roles</value>
+  </data>
+  <data name="Developer Tools" xml:space="preserve">
+    <value>Developer Tools</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="This is the heading and title of the page. For new pages the url slug will be generated based on the title." xml:space="preserve">
+    <value>This is the heading and title of the page. For new pages the url slug will be generated based on the title.</value>
+  </data>
+  <data name="The slug is the url segment that will be used to link to this page. It is recommended to leave the slug blank when creating new pages, the slug will be generated based on the Page Heading. Slugs should be lower case and any characters that are not allowed in urls will be automatically removed." xml:space="preserve">
+    <value>The slug is the url segment that will be used to link to this page. It is recommended to leave the slug blank when creating new pages, the slug will be generated based on the Page Heading. Slugs should be lower case and any characters that are not allowed in urls will be automatically removed.</value>
+  </data>
+  <data name="A page becomes a child page of another page if you enter the slug of the other page as the parent slug. The menu hierarchy is determined by the parent child relationship between pages. If you enter an invalid parent slug it will be ignored but will not cause any error. You can also manage the hierarchy from the Page Manager." xml:space="preserve">
+    <value>A page becomes a child page of another page if you enter the slug of the other page as the parent slug. The menu hierarchy is determined by the parent child relationship between pages. If you enter an invalid parent slug it will be ignored but will not cause any error. You can also manage the hierarchy from the Page Manager.</value>
+  </data>
+  <data name="If you populate this field with an url then the page is used only as a means to add the url as a menu item. The page content in that case is not used or visible to users. You can use a relative url or a fully qualified url so it can link to external sites. Use this with caution and note that once populated the only way to edit the page is from the link in Page Manager." xml:space="preserve">
+    <value>If you populate this field with an url then the page is used only as a means to add the url as a menu item. The page content in that case is not used or visible to users. You can use a relative url or a fully qualified url so it can link to external sites. Use this with caution and note that once populated the only way to edit the page is from the link in Page Manager.</value>
+  </data>
+  <data name="On most pages you will prbably want the page heading to show, but maybe not on the home page. If unchecked then the page heading will not be shown." xml:space="preserve">
+    <value>On most pages you will prbably want the page heading to show, but maybe not on the home page. If unchecked then the page heading will not be shown.</value>
+  </data>
+  <data name="If the page is a parent of other pages, you check this box to make it show a menu of links to the child pages." xml:space="preserve">
+    <value>If the page is a parent of other pages, you check this box to make it show a menu of links to the child pages.</value>
+  </data>
+  <data name="If you don&#39;t want to use the HTML WYSIWYG editor check this box. This would be useful if you are embedding javascript and application style markup." xml:space="preserve">
+    <value>If you don&#39;t want to use the HTML WYSIWYG editor check this box. This would be useful if you are embedding javascript and application style markup.</value>
+  </data>
+  <data name="Check this box if the current page is only meant as a parent container for other pages and has no content of it&#39;s own." xml:space="preserve">
+    <value>Check this box if the current page is only meant as a parent container for other pages and has no content of it&#39;s own.</value>
+  </data>
+  <data name="This is the sort order of this page within it&#39;s subtree of the menu. You can also move pages around easily from Page Manager, which will update the page order." xml:space="preserve">
+    <value>This is the sort order of this page within it&#39;s subtree of the menu. You can also move pages around easily from Page Manager, which will update the page order.</value>
+  </data>
+  <data name="Leave blank to include this page in all menu views. A comma separated list of menu filter names can be used to filter the page out of the various menu views. For example enter breadcrumbs to leave a page out of other views but keep it in breadcrumbs. Standard menu filter names include: topnav,breadcrumbs,childtree. If you want to exclude a page from all menus, just use a non existent view name like &#39;none&#39;." xml:space="preserve">
+    <value>Leave blank to include this page in all menu views. A comma separated list of menu filter names can be used to filter the page out of the various menu views. For example enter breadcrumbs to leave a page out of other views but keep it in breadcrumbs. Standard menu filter names include: topnav,breadcrumbs,childtree. If you want to exclude a page from all menus, just use a non existent view name like &#39;none&#39;.</value>
+  </data>
+  <data name="Leave View Roles blank for public pages. You can put comma separated role names here to make a page visible only to users who are role members." xml:space="preserve">
+    <value>Leave View Roles blank for public pages. You can put comma separated role names here to make a page visible only to users who are role members.</value>
+  </data>
+  <data name="Are you sure you want to delete the page {0}?" xml:space="preserve">
+    <value>Are you sure you want to delete the page {0}?</value>
+  </data>
+  <data name="Enable Comments" xml:space="preserve">
+    <value>Enable Comments</value>
+  </data>
+  <data name="Leave blank to include this page in all menu views. A comma separated list of menu filter names can be used to filter the page out of the various menu views. For example enter breadcrumbs to leave a page out of other views but keep it in breadcrumbs. Standard menu filter names include: topnav,breadcrumbs,childtree. If you want to exclude a page from all menus, just use a non existent view name like &#39;none&#39;" xml:space="preserve">
+    <value>Leave blank to include this page in all menu views. A comma separated list of menu filter names can be used to filter the page out of the various menu views. For example enter breadcrumbs to leave a page out of other views but keep it in breadcrumbs. Standard menu filter names include: topnav,breadcrumbs,childtree. If you want to exclude a page from all menus, just use a non existent view name like &#39;none&#39;</value>
+  </data>
+  <data name="This content is scheduled to be published {0}. You can still edit and save changes to this draft before it is published by clicking &quot;Save Darft&quot;" xml:space="preserve">
+    <value>This content is scheduled to be published {0}. You can still edit and save changes to this draft before it is published by clicking &quot;Save Darft&quot;</value>
+  </data>
+  <data name="You are currently viewing a previous version of this page that was archived" xml:space="preserve">
+    <value>You are currently viewing a previous version of this page that was archived</value>
+  </data>
+  <data name="Create a New Page" xml:space="preserve">
+    <value>Create a New Page</value>
+  </data>
+  <data name="Create Page From Template" xml:space="preserve">
+    <value>Create Page From Template</value>
+  </data>
+  <data name="New Page with Standard Content Editor" xml:space="preserve">
+    <value>New Page with Standard Content Editor</value>
+  </data>
+  <data name="No Pages Found" xml:space="preserve">
+    <value>No Pages Found</value>
+  </data>
+  <data name="No pages have been created yet, if this is your site, please login to create your first page" xml:space="preserve">
+    <value>No pages have been created yet, if this is your site, please login to create your first page</value>
+  </data>
+  <data name="Site Home" xml:space="preserve">
+    <value>Site Home</value>
+  </data>
+  <data name="Bad Request" xml:space="preserve">
+    <value>Bad Request</value>
+  </data>
+  <data name="Your browser sent a request that this server could not understand." xml:space="preserve">
+    <value>Your browser sent a request that this server could not understand.</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="Sorry, but the page requires authentication." xml:space="preserve">
+    <value>Sorry, but the page requires authentication.</value>
+  </data>
+  <data name="Forbidden" xml:space="preserve">
+    <value>Forbidden</value>
+  </data>
+  <data name="Sorry, but you don&#39;t have permission to access this page." xml:space="preserve">
+    <value>Sorry, but you don&#39;t have permission to access this page.</value>
+  </data>
+  <data name="Page Not Found" xml:space="preserve">
+    <value>Page Not Found</value>
+  </data>
+  <data name="Sorry, but the page you were looking for can&#39;t be found." xml:space="preserve">
+    <value>Sorry, but the page you were looking for can&#39;t be found.</value>
+  </data>
+  <data name="Unexpected Error" xml:space="preserve">
+    <value>Unexpected Error</value>
+  </data>
+  <data name="Well, this is embarrassing. An error occurred while processing your request. Rest assured, this problem has been logged and hamsters have been released to fix the problem." xml:space="preserve">
+    <value>Well, this is embarrassing. An error occurred while processing your request. Rest assured, this problem has been logged and hamsters have been released to fix the problem.</value>
+  </data>
+  <data name="Are you sure you want to unpublish the page {0}?" xml:space="preserve">
+    <value>Are you sure you want to unpublish the page {0}?</value>
+  </data>
+  <data name="Site Map" xml:space="preserve">
+    <value>Site Map</value>
+  </data>
+  <data name="Manage Page Hierarchy" xml:space="preserve">
+    <value>Manage Page Hierarchy</value>
+  </data>
+  <data name="New Page" xml:space="preserve">
+    <value>New Page</value>
+  </data>
+  <data name="You can drag and drop page nodes in the treeview below to move them around in the site hierarchy or to change their sort position. Click on a page to show a menu of commands related to that page. Note that changes will not be reflected in the main menu until you refresh the page." xml:space="preserve">
+    <value>You can drag and drop page nodes in the treeview below to move them around in the site hierarchy or to change their sort position. Click on a page to show a menu of commands related to that page. Note that changes will not be reflected in the main menu until you refresh the page.</value>
+  </data>
+  <data name="New Root Level Page" xml:space="preserve">
+    <value>New Root Level Page</value>
+  </data>
+  <data name="Edit Page" xml:space="preserve">
+    <value>Edit Page</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Sort Child Pages Alpha" xml:space="preserve">
+    <value>Sort Child Pages Alpha</value>
+  </data>
+  <data name="New Child Page" xml:space="preserve">
+    <value>New Child Page</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="Are you sure you want to sort the child pages of {0} alphabetically?" xml:space="preserve">
+    <value>Are you sure you want to sort the child pages of {0} alphabetically?</value>
+  </data>
+  <data name="Are you sure you want to move the page {0} {1} {2}?" xml:space="preserve">
+    <value>Are you sure you want to move the page {0} {1} {2}?</value>
+  </data>
+  <data name="The page {0} has child pages, if you delete it, all of the child pages will become root level pages. You should delete child pages before deleting the parent page. Are you sure you want to delete {1}?" xml:space="preserve">
+    <value>The page {0} has child pages, if you delete it, all of the child pages will become root level pages. You should delete child pages before deleting the parent page. Are you sure you want to delete {1}?</value>
+  </data>
+  <data name="Featured Posts" xml:space="preserve">
+    <value>Featured Posts</value>
+  </data>
+  <data name="Recent Posts" xml:space="preserve">
+    <value>Recent Posts</value>
+  </data>
+  <data name="Related Posts" xml:space="preserve">
+    <value>Related Posts</value>
+  </data>
+  <data name="Are you sure you want to delete this history item?" xml:space="preserve">
+    <value>Are you sure you want to delete this history item?</value>
+  </data>
+  <data name="Archived Date" xml:space="preserve">
+    <value>Archived Date</value>
+  </data>
+  <data name="Published Date" xml:space="preserve">
+    <value>Published Date</value>
+  </data>
+  <data name="Archived By" xml:space="preserve">
+    <value>Archived By</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Is Draft" xml:space="preserve">
+    <value>Is Draft</value>
+  </data>
+  <data name="Was Deleted" xml:space="preserve">
+    <value>Was Deleted</value>
+  </data>
+  <data name="Created By" xml:space="preserve">
+    <value>Created By</value>
+  </data>
+  <data name="Last Modified By" xml:space="preserve">
+    <value>Last Modified By</value>
+  </data>
+  <data name="opens in a new window" xml:space="preserve">
+    <value>opens in a new window</value>
+  </data>
+  <data name="Clear/Reset Search" xml:space="preserve">
+    <value>Clear/Reset Search</value>
+  </data>
+  <data name="Search Term" xml:space="preserve">
+    <value>Search Term</value>
+  </data>
+  <data name="Search Templates" xml:space="preserve">
+    <value>Search Templates</value>
+  </data>
+  <data name="Create From Template" xml:space="preserve">
+    <value>Create From Template</value>
+  </data>
+  <data name="Edit - {0}" xml:space="preserve">
+    <value>Edit - {0}</value>
+  </data>
+  <data name="The post was updated successfully." xml:space="preserve">
+    <value>The post was updated successfully.</value>
+  </data>
+  <data name="Please enter a valid e-mail address" xml:space="preserve">
+    <value>Please enter a valid e-mail address</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Content Index" xml:space="preserve">
+    <value>Content Index</value>
+  </data>
+  <data name="The page was updated successfully." xml:space="preserve">
+    <value>The page was updated successfully.</value>
+  </data>
+  <data name="The page was created successfully." xml:space="preserve">
+    <value>The page was created successfully.</value>
+  </data>
+  <data name="Note that since this page has an override url, the menu item will link to the url so the page is used only as a means to add a link in the menu, the content is not used." xml:space="preserve">
+    <value>Note that since this page has an override url, the menu item will link to the url so the page is used only as a means to add a link in the menu, the content is not used.</value>
+  </data>
+  <data name="Developer Tools - {0}" xml:space="preserve">
+    <value>Developer Tools - {0}</value>
+  </data>
+  <data name="Invalid request" xml:space="preserve">
+    <value>Invalid request</value>
+  </data>
+  <data name="Sorry, deleting the default page is not allowed by configuration." xml:space="preserve">
+    <value>Sorry, deleting the default page is not allowed by configuration.</value>
+  </data>
+  <data name="Page Management" xml:space="preserve">
+    <value>Page Management</value>
+  </data>
+  <data name="Please enable javascript to view or post comments." xml:space="preserve">
+    <value>Please enable javascript to view or post comments.</value>
+  </data>
+
+</root>

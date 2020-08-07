@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Create Folder" xml:space="preserve">
+    <value>Create Folder</value>
+  </data>
+  <data name="Rename Folder" xml:space="preserve">
+    <value>Rename Folder</value>
+  </data>
+  <data name="Confirm Rename Folder" xml:space="preserve">
+    <value>Confirm Rename Folder</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Delete Folder" xml:space="preserve">
+    <value>Delete Folder</value>
+  </data>
+  <data name="Confirm Delete" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="Rename File" xml:space="preserve">
+    <value>Rename File</value>
+  </data>
+  <data name="Confirm Rename File" xml:space="preserve">
+    <value>Confirm Rename File</value>
+  </data>
+  <data name="Delete File" xml:space="preserve">
+    <value>Delete File</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="Selected File" xml:space="preserve">
+    <value>Selected File</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Select Root Folder" xml:space="preserve">
+    <value>Select Root Folder</value>
+  </data>
+  <data name="root" xml:space="preserve">
+    <value>root</value>
+  </data>
+  <data name="Preview selected image" xml:space="preserve">
+    <value>Preview selected image</value>
+  </data>
+  <data name="Crop" xml:space="preserve">
+    <value>Crop</value>
+  </data>
+  <data name="This image file is large and should not be used directly in content, consider using a resized version." xml:space="preserve">
+    <value>This image file is large and should not be used directly in content, consider using a resized version.</value>
+  </data>
+  <data name="Upload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="Save Locally" xml:space="preserve">
+    <value>Save Locally</value>
+  </data>
+  <data name="Crop Width" xml:space="preserve">
+    <value>Crop Width</value>
+  </data>
+  <data name="width" xml:space="preserve">
+    <value>width</value>
+  </data>
+  <data name="Crop Height" xml:space="preserve">
+    <value>Crop Height</value>
+  </data>
+  <data name="height" xml:space="preserve">
+    <value>height</value>
+  </data>
+  <data name="Choose an image from your device" xml:space="preserve">
+    <value>Choose an image from your device</value>
+  </data>
+  <data name="Zoom In" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="Zoom Out" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="Move Left" xml:space="preserve">
+    <value>Move Left</value>
+  </data>
+  <data name="Move Right" xml:space="preserve">
+    <value>Move Right</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="Rotate Left" xml:space="preserve">
+    <value>Rotate Left</value>
+  </data>
+  <data name="Rotate Right" xml:space="preserve">
+    <value>Rotate Right</value>
+  </data>
+  <data name="Flip Horizontal" xml:space="preserve">
+    <value>Flip Horizontal</value>
+  </data>
+  <data name="Flip Vertical" xml:space="preserve">
+    <value>Flip Vertical</value>
+  </data>
+  <data name="Zoom to 100%" xml:space="preserve">
+    <value>Zoom to 100%</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="aspectRatio: 16 / 9" xml:space="preserve">
+    <value>aspectRatio: 16 / 9</value>
+  </data>
+  <data name="aspectRatio: 4 / 3" xml:space="preserve">
+    <value>aspectRatio: 4 / 3</value>
+  </data>
+  <data name="aspectRatio: 1 / 1" xml:space="preserve">
+    <value>aspectRatio: 1 / 1</value>
+  </data>
+  <data name="aspectRatio: 2 / 3" xml:space="preserve">
+    <value>aspectRatio: 2 / 3</value>
+  </data>
+  <data name="aspectRatio: Free Form" xml:space="preserve">
+    <value>aspectRatio: Free Form</value>
+  </data>
+  <data name="Output Width" xml:space="preserve">
+    <value>Output Width</value>
+  </data>
+  <data name="Output Height" xml:space="preserve">
+    <value>Output Height</value>
+  </data>
+  <data name="Max Width" xml:space="preserve">
+    <value>Max Width</value>
+  </data>
+  <data name="Constrain Width" xml:space="preserve">
+    <value>Constrain Width</value>
+  </data>
+  <data name="Upload/Save" xml:space="preserve">
+    <value>Upload/Save</value>
+  </data>
+  <data name="Cropped Preview" xml:space="preserve">
+    <value>Cropped Preview</value>
+  </data>
+  <data name="Image Files" xml:space="preserve">
+    <value>Image Files</value>
+  </data>
+  <data name="Video Files" xml:space="preserve">
+    <value>Video Files</value>
+  </data>
+  <data name="Audio Files" xml:space="preserve">
+    <value>Audio Files</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="File Manager" xml:space="preserve">
+    <value>File Manager</value>
+  </data>
+  <data name="Reduce Image Size For Web" xml:space="preserve">
+    <value>Reduce Image Size For Web</value>
+  </data>
+  <data name="Keep Original Size Images" xml:space="preserve">
+    <value>Keep Original Size Images</value>
+  </data>
+  <data name="Max Height" xml:space="preserve">
+    <value>Max Height</value>
+  </data>
+  <data name="Upload one or more files using this form:" xml:space="preserve">
+    <value>Upload one or more files using this form:</value>
+  </data>
+  <data name="Drag and drop files here" xml:space="preserve">
+    <value>Drag and drop files here</value>
+  </data>
+  <data name="Choose Files" xml:space="preserve">
+    <value>Choose Files</value>
+  </data>
+  <data name="Upload Image Files" xml:space="preserve">
+    <value>Upload Image Files</value>
+  </data>
+  <data name="Upload Files" xml:space="preserve">
+    <value>Upload Files</value>
+  </data>
+  <data name="First use the browse tab to select the folder where you would like the new files to be placed. Then drag and drop files onto the dropzone or browse to select the files on your computer, once files are selected an Upload button will appear.  Files will be uploaded to the current folder:" xml:space="preserve">
+    <value>First use the browse tab to select the folder where you would like the new files to be placed. Then drag and drop files onto the dropzone or browse to select the files on your computer, once files are selected an Upload button will appear.  Files will be uploaded to the current folder:</value>
+  </data>
+
+</root>

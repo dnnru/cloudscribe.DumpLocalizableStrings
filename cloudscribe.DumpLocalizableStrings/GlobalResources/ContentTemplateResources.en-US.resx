@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Top Content" xml:space="preserve">
+    <value>Top Content</value>
+  </data>
+  <data name="Bottom Content" xml:space="preserve">
+    <value>Bottom Content</value>
+  </data>
+  <data name="Get a Bing Map API Key" xml:space="preserve">
+    <value>Get a Bing Map API Key</value>
+  </data>
+  <data name="Location Name" xml:space="preserve">
+    <value>Location Name</value>
+  </data>
+  <data name="Location Address" xml:space="preserve">
+    <value>Location Address</value>
+  </data>
+  <data name="Bing Map Api Key" xml:space="preserve">
+    <value>Bing Map Api Key</value>
+  </data>
+  <data name="Get Directions" xml:space="preserve">
+    <value>Get Directions</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Sections with no content body will not be shown even if they have images." xml:space="preserve">
+    <value>Sections with no content body will not be shown even if they have images.</value>
+  </data>
+  <data name="Section 1" xml:space="preserve">
+    <value>Section 1</value>
+  </data>
+  <data name="Section 2" xml:space="preserve">
+    <value>Section 2</value>
+  </data>
+  <data name="Section 3" xml:space="preserve">
+    <value>Section 3</value>
+  </data>
+  <data name="Section 4" xml:space="preserve">
+    <value>Section 4</value>
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="Section 5" xml:space="preserve">
+    <value>Section 5</value>
+  </data>
+  <data name="Section 6" xml:space="preserve">
+    <value>Section 6</value>
+  </data>
+  <data name="Section 7" xml:space="preserve">
+    <value>Section 7</value>
+  </data>
+  <data name="Section 8" xml:space="preserve">
+    <value>Section 8</value>
+  </data>
+  <data name="Drop file here or click to browse device for file." xml:space="preserve">
+    <value>Drop file here or click to browse device for file.</value>
+  </data>
+  <data name="Browse Server" xml:space="preserve">
+    <value>Browse Server</value>
+  </data>
+  <data name="Save Crop" xml:space="preserve">
+    <value>Save Crop</value>
+  </data>
+  <data name="Current Images" xml:space="preserve">
+    <value>Current Images</value>
+  </data>
+  <data name="No images have been added yet, drop or browse images below to add your first image, then click the button to add it to the gallery." xml:space="preserve">
+    <value>No images have been added yet, drop or browse images below to add your first image, then click the button to add it to the gallery.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Move Up" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="Move Down" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="Add New Image" xml:space="preserve">
+    <value>Add New Image</value>
+  </data>
+  <data name="Add To Gallery" xml:space="preserve">
+    <value>Add To Gallery</value>
+  </data>
+  <data name="Image Description" xml:space="preserve">
+    <value>Image Description</value>
+  </data>
+  <data name="Section Heading - optional" xml:space="preserve">
+    <value>Section Heading - optional</value>
+  </data>
+  <data name="Section 1 Content" xml:space="preserve">
+    <value>Section 1 Content</value>
+  </data>
+  <data name="Section 2 Content" xml:space="preserve">
+    <value>Section 2 Content</value>
+  </data>
+  <data name="Section 3 Content" xml:space="preserve">
+    <value>Section 3 Content</value>
+  </data>
+  <data name="Section 4 Content" xml:space="preserve">
+    <value>Section 4 Content</value>
+  </data>
+  <data name="Carousel slide interval in milliseconds" xml:space="preserve">
+    <value>Carousel slide interval in milliseconds</value>
+  </data>
+  <data name="Section 5 Content" xml:space="preserve">
+    <value>Section 5 Content</value>
+  </data>
+  <data name="Section 6 Content" xml:space="preserve">
+    <value>Section 6 Content</value>
+  </data>
+  <data name="Section 7 Content" xml:space="preserve">
+    <value>Section 7 Content</value>
+  </data>
+  <data name="Section 8 Content" xml:space="preserve">
+    <value>Section 8 Content</value>
+  </data>
+  <data name="AltText" xml:space="preserve">
+    <value>AltText</value>
+  </data>
+  <data name="LinkUrl" xml:space="preserve">
+    <value>LinkUrl</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="Image floated left" xml:space="preserve">
+    <value>Image floated left</value>
+  </data>
+  <data name="Image floated right" xml:space="preserve">
+    <value>Image floated right</value>
+  </data>
+  <data name="Image not floated" xml:space="preserve">
+    <value>Image not floated</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="Current Links" xml:space="preserve">
+    <value>Current Links</value>
+  </data>
+  <data name="No links have been added yet, use the form below to add links." xml:space="preserve">
+    <value>No links have been added yet, use the form below to add links.</value>
+  </data>
+  <data name="Link Url" xml:space="preserve">
+    <value>Link Url</value>
+  </data>
+  <data name="Thumbnail AltText" xml:space="preserve">
+    <value>Thumbnail AltText</value>
+  </data>
+  <data name="Opens in new window" xml:space="preserve">
+    <value>Opens in new window</value>
+  </data>
+  <data name="Add a New Link" xml:space="preserve">
+    <value>Add a New Link</value>
+  </data>
+  <data name="Link Title - required" xml:space="preserve">
+    <value>Link Title - required</value>
+  </data>
+  <data name="Link Url - required" xml:space="preserve">
+    <value>Link Url - required</value>
+  </data>
+  <data name="Link Description - optional" xml:space="preserve">
+    <value>Link Description - optional</value>
+  </data>
+  <data name="Link Thumbnail - optional" xml:space="preserve">
+    <value>Link Thumbnail - optional</value>
+  </data>
+  <data name="Thumbnail AltText - optional" xml:space="preserve">
+    <value>Thumbnail AltText - optional</value>
+  </data>
+  <data name="Add Link" xml:space="preserve">
+    <value>Add Link</value>
+  </data>
+  <data name="A link must have a title and a valid url." xml:space="preserve">
+    <value>A link must have a title and a valid url.</value>
+  </data>
+  <data name="Layout Sections 5 - 8" xml:space="preserve">
+    <value>Layout Sections 5 - 8</value>
+  </data>
+  <data name="Responsive equal width columns" xml:space="preserve">
+    <value>Responsive equal width columns</value>
+  </data>
+  <data name="Sections with floated images alternating sides" xml:space="preserve">
+    <value>Sections with floated images alternating sides</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Cards</value>
+  </data>
+  <data name="Compact" xml:space="preserve">
+    <value>Compact</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Grid</value>
+  </data>
+  <data name="Carousel - Full Width" xml:space="preserve">
+    <value>Carousel - Full Width</value>
+  </data>
+  <data name="Carousel on Left With Wrapped Top Content" xml:space="preserve">
+    <value>Carousel on Left With Wrapped Top Content</value>
+  </data>
+  <data name="Carousel on Right With Wrapped Top Content" xml:space="preserve">
+    <value>Carousel on Right With Wrapped Top Content</value>
+  </data>
+  <data name="Layout Sections 1 - 4" xml:space="preserve">
+    <value>Layout Sections 1 - 4</value>
+  </data>
+  <data name="Wider left column" xml:space="preserve">
+    <value>Wider left column</value>
+  </data>
+  <data name="Wider right column" xml:space="preserve">
+    <value>Wider right column</value>
+  </data>
+
+</root>

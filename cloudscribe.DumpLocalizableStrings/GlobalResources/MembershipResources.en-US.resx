@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Manage Payment Methods" xml:space="preserve">
+    <value>Manage Payment Methods</value>
+  </data>
+  <data name="Make Payment" xml:space="preserve">
+    <value>Make Payment</value>
+  </data>
+  <data name="Name on Card" xml:space="preserve">
+    <value>Name on Card</value>
+  </data>
+  <data name="Name is required" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+  <data name="Credit Card Number" xml:space="preserve">
+    <value>Credit Card Number</value>
+  </data>
+  <data name="CVV" xml:space="preserve">
+    <value>CVV</value>
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Expiration</value>
+  </data>
+  <data name="Payment Method" xml:space="preserve">
+    <value>Payment Method</value>
+  </data>
+  <data name="Submit Payment" xml:space="preserve">
+    <value>Submit Payment</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="Your membership subscription will automatically renew and your card will be charged every {0} days, you can cancel automatic renewal at any time." xml:space="preserve">
+    <value>Your membership subscription will automatically renew and your card will be charged every {0} days, you can cancel automatic renewal at any time.</value>
+  </data>
+  <data name="Using Stripe Test API, you can use the test card number 4242 4242 4242 4242, and random CVV with any US zip code" xml:space="preserve">
+    <value>Using Stripe Test API, you can use the test card number 4242 4242 4242 4242, and random CVV with any US zip code</value>
+  </data>
+  <data name="Cancel Automatic Renewal" xml:space="preserve">
+    <value>Cancel Automatic Renewal</value>
+  </data>
+  <data name="Cancel Automatic Renewal?" xml:space="preserve">
+    <value>Cancel Automatic Renewal?</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Are you sure you want to cancel automatic renewal for this membership ticket? You can&#39;t undo this, the user can subscribe again later." xml:space="preserve">
+    <value>Are you sure you want to cancel automatic renewal for this membership ticket? You can&#39;t undo this, the user can subscribe again later.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Are you sure you want to cancel automatic renewal for this membership ticket? You can&#39;t undo this, but you can subscribe again later." xml:space="preserve">
+    <value>Are you sure you want to cancel automatic renewal for this membership ticket? You can&#39;t undo this, but you can subscribe again later.</value>
+  </data>
+  <data name="Order Details" xml:space="preserve">
+    <value>Order Details</value>
+  </data>
+  <data name="This membership will be renewed automatically on the end date, and the card will be charged every {0} days to renew the membership." xml:space="preserve">
+    <value>This membership will be renewed automatically on the end date, and the card will be charged every {0} days to renew the membership.</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Back to order search" xml:space="preserve">
+    <value>Back to order search</value>
+  </data>
+  <data name="Confirm Delete" xml:space="preserve">
+    <value>Confirm Delete</value>
+  </data>
+  <data name="Are you sure you want to delete the membership ticket for {0}? You cannot undo this action." xml:space="preserve">
+    <value>Are you sure you want to delete the membership ticket for {0}? You cannot undo this action.</value>
+  </data>
+  <data name="Browse Membership Carts" xml:space="preserve">
+    <value>Browse Membership Carts</value>
+  </data>
+  <data name="Membership carts are created when a user clicks to join or renew but doesn&#39;t proceed to checkout." xml:space="preserve">
+    <value>Membership carts are created when a user clicks to join or renew but doesn&#39;t proceed to checkout.</value>
+  </data>
+  <data name="First Page" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="Last Page" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="Previous page" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="Next page" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="Current Members" xml:space="preserve">
+    <value>Current Members</value>
+  </data>
+  <data name="{0} found" xml:space="preserve">
+    <value>{0} found</value>
+  </data>
+  <data name="Clear/Reset Form" xml:space="preserve">
+    <value>Clear/Reset Form</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Select Roles" xml:space="preserve">
+    <value>Select Roles</value>
+  </data>
+  <data name="Granted Roles" xml:space="preserve">
+    <value>Granted Roles</value>
+  </data>
+  <data name="Working..." xml:space="preserve">
+    <value>Working...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Back to List" xml:space="preserve">
+    <value>Back to List</value>
+  </data>
+  <data name="Are you sure you want to delete the Membership Level {0}? You cannot undo this action." xml:space="preserve">
+    <value>Are you sure you want to delete the Membership Level {0}? You cannot undo this action.</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Membership Level" xml:space="preserve">
+    <value>Membership Level</value>
+  </data>
+  <data name="Duration In Days" xml:space="preserve">
+    <value>Duration In Days</value>
+  </data>
+  <data name="Grace Period Days" xml:space="preserve">
+    <value>Grace Period Days</value>
+  </data>
+  <data name="Offer Begin Date" xml:space="preserve">
+    <value>Offer Begin Date</value>
+  </data>
+  <data name="Offer End Date" xml:space="preserve">
+    <value>Offer End Date</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="Renewal Price" xml:space="preserve">
+    <value>Renewal Price</value>
+  </data>
+  <data name="Only Available for New Members?" xml:space="preserve">
+    <value>Only Available for New Members?</value>
+  </data>
+  <data name="Is Available?" xml:space="preserve">
+    <value>Is Available?</value>
+  </data>
+  <data name="Sort Rank" xml:space="preserve">
+    <value>Sort Rank</value>
+  </data>
+  <data name="Back to product list" xml:space="preserve">
+    <value>Back to product list</value>
+  </data>
+  <data name="Are you sure you want to delete the Membership Product {0}? You cannot undo this action." xml:space="preserve">
+    <value>Are you sure you want to delete the Membership Product {0}? You cannot undo this action.</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Email Template" xml:space="preserve">
+    <value>Email Template</value>
+  </data>
+  <data name="Date Target" xml:space="preserve">
+    <value>Date Target</value>
+  </data>
+  <data name="Days Before Expiration Date" xml:space="preserve">
+    <value>Days Before Expiration Date</value>
+  </data>
+  <data name="Days After Expiration Date" xml:space="preserve">
+    <value>Days After Expiration Date</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Are you sure you want to delete the Membership Reminder {0}? You cannot undo this action." xml:space="preserve">
+    <value>Are you sure you want to delete the Membership Reminder {0}? You cannot undo this action.</value>
+  </data>
+  <data name="Back to {0}" xml:space="preserve">
+    <value>Back to {0}</value>
+  </data>
+  <data name="Membership Page Top Content" xml:space="preserve">
+    <value>Membership Page Top Content</value>
+  </data>
+  <data name="Membership Page Bottom Content" xml:space="preserve">
+    <value>Membership Page Bottom Content</value>
+  </data>
+  <data name="Buy Now Button Text" xml:space="preserve">
+    <value>Buy Now Button Text</value>
+  </data>
+  <data name="Renew Now Button Text" xml:space="preserve">
+    <value>Renew Now Button Text</value>
+  </data>
+  <data name="Signin Or Register Text" xml:space="preserve">
+    <value>Signin Or Register Text</value>
+  </data>
+  <data name="Show Signin/Register Prompt On Membership Page" xml:space="preserve">
+    <value>Show Signin/Register Prompt On Membership Page</value>
+  </data>
+  <data name="Show User&#39;s Current Membership On Membership Page" xml:space="preserve">
+    <value>Show User&#39;s Current Membership On Membership Page</value>
+  </data>
+  <data name="Show Products On Membership Page" xml:space="preserve">
+    <value>Show Products On Membership Page</value>
+  </data>
+  <data name="Hide Products if User Has Auto Renew" xml:space="preserve">
+    <value>Hide Products if User Has Auto Renew</value>
+  </data>
+  <data name="Alert Unauthenticated Users" xml:space="preserve">
+    <value>Alert Unauthenticated Users</value>
+  </data>
+  <data name="Unauthenticated User Alert" xml:space="preserve">
+    <value>Unauthenticated User Alert</value>
+  </data>
+  <data name="No Membership Alert" xml:space="preserve">
+    <value>No Membership Alert</value>
+  </data>
+  <data name="Expired Membership Alert" xml:space="preserve">
+    <value>Expired Membership Alert</value>
+  </data>
+  <data name="Expiring Soon Alert Format" xml:space="preserve">
+    <value>Expiring Soon Alert Format</value>
+  </data>
+  <data name="Minimum Days Remaining For Renewal Alert" xml:space="preserve">
+    <value>Minimum Days Remaining For Renewal Alert</value>
+  </data>
+  <data name="Roles Not To Alert For Membership" xml:space="preserve">
+    <value>Roles Not To Alert For Membership</value>
+  </data>
+  <data name="Require Address For Paid Orders" xml:space="preserve">
+    <value>Require Address For Paid Orders</value>
+  </data>
+  <data name="Require Phone For Paid Orders" xml:space="preserve">
+    <value>Require Phone For Paid Orders</value>
+  </data>
+  <data name="Require Address For Free Orders" xml:space="preserve">
+    <value>Require Address For Free Orders</value>
+  </data>
+  <data name="Require Phone For Free Orders" xml:space="preserve">
+    <value>Require Phone For Free Orders</value>
+  </data>
+  <data name="Bcc Order Confirmation Emails Csv" xml:space="preserve">
+    <value>Bcc Order Confirmation Emails Csv</value>
+  </data>
+  <data name="Membership Page Settings" xml:space="preserve">
+    <value>Membership Page Settings</value>
+  </data>
+  <data name="Alert Settings" xml:space="preserve">
+    <value>Alert Settings</value>
+  </data>
+  <data name="Order Settings" xml:space="preserve">
+    <value>Order Settings</value>
+  </data>
+  <data name="Membership Settings" xml:space="preserve">
+    <value>Membership Settings</value>
+  </data>
+  <data name="Begin Date" xml:space="preserve">
+    <value>Begin Date</value>
+  </data>
+  <data name="End Date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Expired Membership Tickets" xml:space="preserve">
+    <value>Expired Membership Tickets</value>
+  </data>
+  <data name="Note that this is a full list of all expired membership tickets. A user could also have a current unexpired membership ticket." xml:space="preserve">
+    <value>Note that this is a full list of all expired membership tickets. A user could also have a current unexpired membership ticket.</value>
+  </data>
+  <data name="Expiring Soon" xml:space="preserve">
+    <value>Expiring Soon</value>
+  </data>
+  <data name="5 Days" xml:space="preserve">
+    <value>5 Days</value>
+  </data>
+  <data name="10 Days" xml:space="preserve">
+    <value>10 Days</value>
+  </data>
+  <data name="15 Days" xml:space="preserve">
+    <value>15 Days</value>
+  </data>
+  <data name="30 Days" xml:space="preserve">
+    <value>30 Days</value>
+  </data>
+  <data name="45 Days" xml:space="preserve">
+    <value>45 Days</value>
+  </data>
+  <data name="90 Days" xml:space="preserve">
+    <value>90 Days</value>
+  </data>
+  <data name="Manage Premium Membership" xml:space="preserve">
+    <value>Manage Premium Membership</value>
+  </data>
+  <data name="Membership Levels" xml:space="preserve">
+    <value>Membership Levels</value>
+  </data>
+  <data name="Membership levels define a role or set of roles that will be granted to users who are current members of the defined membership level." xml:space="preserve">
+    <value>Membership levels define a role or set of roles that will be granted to users who are current members of the defined membership level.</value>
+  </data>
+  <data name="In general it is a good practice for a Membership Level to only grant a single role. It is also recommended that you create the role with the same name as the Membership Level, ie &quot;Premium Members&quot;.  When a user&#39;s membership expires the user will be removed from the granted role automatically." xml:space="preserve">
+    <value>In general it is a good practice for a Membership Level to only grant a single role. It is also recommended that you create the role with the same name as the Membership Level, ie &quot;Premium Members&quot;.  When a user&#39;s membership expires the user will be removed from the granted role automatically.</value>
+  </data>
+  <data name="Your premium site content should be protected by an Authorization Policy that requires the granted role so that users whose membership expires cannot access the premium content." xml:space="preserve">
+    <value>Your premium site content should be protected by an Authorization Policy that requires the granted role so that users whose membership expires cannot access the premium content.</value>
+  </data>
+  <data name="Add New" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="Lookup User" xml:space="preserve">
+    <value>Lookup User</value>
+  </data>
+  <data name="Email Address" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="First Name" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Last Name" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Address 1" xml:space="preserve">
+    <value>Address 1</value>
+  </data>
+  <data name="Address 2" xml:space="preserve">
+    <value>Address 2</value>
+  </data>
+  <data name="Suburb" xml:space="preserve">
+    <value>Suburb</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="State/Region" xml:space="preserve">
+    <value>State/Region</value>
+  </data>
+  <data name="Postal Code" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Membership Product" xml:space="preserve">
+    <value>Membership Product</value>
+  </data>
+  <data name="Tax/VAT Collected" xml:space="preserve">
+    <value>Tax/VAT Collected</value>
+  </data>
+  <data name="Processing Fee" xml:space="preserve">
+    <value>Processing Fee</value>
+  </data>
+  <data name="Order Status" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="Use Product Price? (un-check this if you are entering/overriding the price above)" xml:space="preserve">
+    <value>Use Product Price? (un-check this if you are entering/overriding the price above)</value>
+  </data>
+  <data name="Send confirmation email?" xml:space="preserve">
+    <value>Send confirmation email?</value>
+  </data>
+  <data name="Create Order" xml:space="preserve">
+    <value>Create Order</value>
+  </data>
+  <data name="Update Order" xml:space="preserve">
+    <value>Update Order</value>
+  </data>
+  <data name="Order Search" xml:space="preserve">
+    <value>Order Search</value>
+  </data>
+  <data name="Email, or name" xml:space="preserve">
+    <value>Email, or name</value>
+  </data>
+  <data name="Renewal Reminders" xml:space="preserve">
+    <value>Renewal Reminders</value>
+  </data>
+  <data name="Membership Products" xml:space="preserve">
+    <value>Membership Products</value>
+  </data>
+  <data name="Membership Products define the price and duration of membership." xml:space="preserve">
+    <value>Membership Products define the price and duration of membership.</value>
+  </data>
+  <data name="Reminder Templates" xml:space="preserve">
+    <value>Reminder Templates</value>
+  </data>
+  <data name="New Template" xml:space="preserve">
+    <value>New Template</value>
+  </data>
+  <data name="Send Preview Email Csv" xml:space="preserve">
+    <value>Send Preview Email Csv</value>
+  </data>
+  <data name="Send Preview On Save" xml:space="preserve">
+    <value>Send Preview On Save</value>
+  </data>
+  <data name="Are you sure you want to delete the Template {0}? You cannot undo this action." xml:space="preserve">
+    <value>Are you sure you want to delete the Template {0}? You cannot undo this action.</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Duration in Days" xml:space="preserve">
+    <value>Duration in Days</value>
+  </data>
+  <data name="Is Renewal" xml:space="preserve">
+    <value>Is Renewal</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Tax/VAT" xml:space="preserve">
+    <value>Tax/VAT</value>
+  </data>
+  <data name="Order Total" xml:space="preserve">
+    <value>Order Total</value>
+  </data>
+  <data name="Transaction Id" xml:space="preserve">
+    <value>Transaction Id</value>
+  </data>
+  <data name="Order Completed Date" xml:space="preserve">
+    <value>Order Completed Date</value>
+  </data>
+  <data name="Last Modified" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="{0} {1}/{2}" xml:space="preserve">
+    <value>{0} {1}/{2}</value>
+  </data>
+  <data name="auto-renews every {0} days" xml:space="preserve">
+    <value>auto-renews every {0} days</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="Order Date" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Renew" xml:space="preserve">
+    <value>Renew</value>
+  </data>
+  <data name="Users With No Active Membership" xml:space="preserve">
+    <value>Users With No Active Membership</value>
+  </data>
+  <data name="Create/Renew Membership" xml:space="preserve">
+    <value>Create/Renew Membership</value>
+  </data>
+  <data name="Join Now" xml:space="preserve">
+    <value>Join Now</value>
+  </data>
+  <data name="Renew Now" xml:space="preserve">
+    <value>Renew Now</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Membership" xml:space="preserve">
+    <value>Membership</value>
+  </data>
+  <data name="In order to become a member you must first register and/or login." xml:space="preserve">
+    <value>In order to become a member you must first register and/or login.</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="Your membership will be renewed automatically on the end date, and your card will be charged every {0} days to renew your membership. You can cancel automatic renewal at any time." xml:space="preserve">
+    <value>Your membership will be renewed automatically on the end date, and your card will be charged every {0} days to renew your membership. You can cancel automatic renewal at any time.</value>
+  </data>
+  <data name="No payment system has been configured" xml:space="preserve">
+    <value>No payment system has been configured</value>
+  </data>
+  <data name="Unsubscribe" xml:space="preserve">
+    <value>Unsubscribe</value>
+  </data>
+  <data name="You have successfully unsubscribed from membership renewal reminders. Sorry for any inconvenience." xml:space="preserve">
+    <value>You have successfully unsubscribed from membership renewal reminders. Sorry for any inconvenience.</value>
+  </data>
+  <data name="with automatic renewal" xml:space="preserve">
+    <value>with automatic renewal</value>
+  </data>
+  <data name="{0} from {1} until {2}" xml:space="preserve">
+    <value>{0} from {1} until {2}</value>
+  </data>
+  <data name="Your Current Membership" xml:space="preserve">
+    <value>Your Current Membership</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="Billing Address" xml:space="preserve">
+    <value>Billing Address</value>
+  </data>
+  <data name="Manage Membership" xml:space="preserve">
+    <value>Manage Membership</value>
+  </data>
+  <data name="Thank you for your order! Your membership is confirmed." xml:space="preserve">
+    <value>Thank you for your order! Your membership is confirmed.</value>
+  </data>
+
+</root>
