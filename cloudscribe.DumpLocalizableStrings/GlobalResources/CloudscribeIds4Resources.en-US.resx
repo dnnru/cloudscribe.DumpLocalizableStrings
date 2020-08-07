@@ -480,5 +480,4 @@
   <data name="Identity resources are data like user ID, name, or email address of a user. An identity resource has a unique name, and you can assign arbitrary claim types to it. These claims will then be included in the identity token for the user. The client will use the scope parameter to request access to an identity resource." xml:space="preserve">
     <value>Identity resources are data like user ID, name, or email address of a user. An identity resource has a unique name, and you can assign arbitrary claim types to it. These claims will then be included in the identity token for the user. The client will use the scope parameter to request access to an identity resource.</value>
   </data>
-
 </root>

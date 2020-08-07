@@ -75,18 +75,15 @@ namespace cloudscribe.DumpLocalizableStrings
                                             continue;
                                         }
 
-                                        if (instr.OpCode == OpCodes.Ldstr && localizable)
+                                        if (instr.OpCode == OpCodes.Ldstr && localizable && !string.IsNullOrEmpty(operandType))
                                         {
-                                            if (!string.IsNullOrEmpty(operandType))
+                                            HashSet<string> resources = resultDict.GetOrAdd(operandType, s => new HashSet<string>());
+                                            string value = WebUtility.HtmlEncode((string) instr.Operand);
+                                            if (!string.IsNullOrWhiteSpace(value))
                                             {
-                                                HashSet<string> resources = resultDict.GetOrAdd(operandType, s => new HashSet<string>());
-                                                string value = WebUtility.HtmlEncode((string) instr.Operand);
-                                                if (!string.IsNullOrWhiteSpace(value))
-                                                {
-                                                    resources.Add(value);
-                                                    Console.WriteLine($"Resource: {operandType}{Environment.NewLine}Value: {value}");
-                                                    Console.WriteLine("===========================================================");
-                                                }
+                                                resources.Add(value);
+                                                Console.WriteLine($"Resource: {operandType}{Environment.NewLine}Value: {value}");
+                                                Console.WriteLine("===========================================================");
                                             }
                                         }
 
@@ -120,7 +117,7 @@ namespace cloudscribe.DumpLocalizableStrings
                             }
 
                             //File.WriteAllText(resxFile, PrettyXml(string.Format(resxTemplate, builder)));
-                            File.WriteAllText(resxFile, string.Format(resxTemplate, builder));
+                            File.WriteAllText(resxFile, string.Format(resxTemplate, builder.ToString().TrimEnd(Environment.NewLine.ToCharArray())));
                         }
                     }
                 }
